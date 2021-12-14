@@ -3,7 +3,7 @@
 ## Table of Contents
 - [The Idea](#The-Idea)
 - [Process & Tools](#Process-&-Tools)
-- [Next Steps](#Next-Steps)
+- [Conclusion and Next Steps](#Conclusion-and-Next-Steps)
 
 ## The Idea
 
@@ -57,16 +57,18 @@ I used the OpenWeather API to get back local weather information such as high an
 
 The YahooFinance API allowed me to return to closing postion of the stock markets for the previous day.
 
+**Export:**
+
+Once all the information is gathered it is exported in a folder in the correct format alongside an image from the article to begin constructing the newsletter.
+
 ### Canva
 
 Once all the information is gathered, it is exported. From there it is a simple process to construct the newsletter. I chose to do this with Canva, but any design software could be used.
 
 A link to an example of a finished newsletter can be found (here)[link].
 
-## Next Steps
+## Conclusion and Next Steps
 
-Though I believe the project to be successful, there are ways in which it could be improve. Full automation of the newsletter would be idea, although it seems difficult to automate production and achieve a nice design. The summaries, though good are not perfect, and might be improved by further fine tuning of the model, which wasn't withing the scope of this project.
+The process of making the newsletter after the program has run should be between 5 and 10 minutes. I believe this to be a huge improvement at a task which would otherwise take someone several hours to produce. The generation of summaries is the greatest time saver, but having weather and stocks information as well as difficulty level and read time all in the desired format adds up, in my opinion, to an enourmous saving in time and energy.
 
-
-
-
+Though I believe the project to be successful, there are ways in which it could be improved. Full automation of the newsletter would be ideal, although it seems difficult to fully automate production and at the same time achieve a nice design. The summaries though good are not perfect and might be improved by further fine tuning of the model, which wasn't withing the scope of this project. Of course, this program could be quickly adapted to a range of topics outside of data science.
