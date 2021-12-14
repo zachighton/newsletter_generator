@@ -45,16 +45,17 @@ Though not a perfect system it certainly helps to give the reader a general idea
 
 **Generating Summaries:**
 
-To generate the summaries I used BART.
+To generate the summaries I use BART. I am using a form of BART which has been pretrained on the CCN/DailyMail dataset, which contains just over 300k unique news articles written by journalists at CNN and the Daily Mail. BART is trained by corrupting these articles with an arbitrary noising function and then learning a model to reconstruct the original text.
 
-BART is trained by corrupting text with an arbitrary noising function and then learning a model to reconstruct the original text. I am using a form of BART which has been pretrained on a large set of data from CNN 
+I am running this model using the Transformers library alongside PyTorch.
 
-
-
+By using this model, the program can generate relativley accurate summaries of the articles at the length required. In this case, to be short enough to fit into a newsletter, the summaries are of around 120 words in length. Given that the length is so short, it is generally not possible to generate a full summary of the article, however an introduction can be provided to give the reader an idea of the contents of the full article if they were to read it.
 
 **Additional Features:**
 
-The program then calculates the average read time of the article.
+I used 
+
+The program calculates the average read time of the article.
 
 ## Visualizations
 
