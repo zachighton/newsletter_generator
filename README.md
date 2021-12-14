@@ -31,7 +31,7 @@ I then cleaned the articles to remove any unneccesary characters and cleaned up 
 
 **Filtering for relevancy:**
 
-I used NLTK, a natural language processing library, to get back the most common word pairs (collocations) in each article.
+I used NLTK, a natural language processing library, to get back the most common word pairs (collocations) for each article.
 
 I then filtered out any articles which did not contain relevant keywords or word pairs.
 
@@ -39,7 +39,22 @@ I then filtered out any articles which did not contain relevant keywords or word
 
 To assess the difficulty level of each article, I determined three lists of data science keywords. One which I felt were likely to be included in 'beginner' articles, one for an 'intermediate' difficulty and finally 'advanced'.
 
-I then searched the articles for these keywords and came back with the relative number of keywords present in the article from each list. If over 30% of the keywords were from the advanced category, the article would be categorised as advanced. If however, this was not the case, but 50% of the keywords were  articles 
+I then searched the articles for these keywords and came back with the relative number of keywords present in the article from each list. If over 30% of the keywords were from the advanced category, the article would be categorised as advanced. If however, this was not the case, but 50% of the keywords were from the intermediate list, then the article would be marked as 'intermediate' else it would be marked as 'beginner'.
+
+Though not a perfect system it certainly helps to give the reader a general idea of how complex the ideas contained within an article are likely to be.
+
+**Generating Summaries:**
+
+To generate the summaries I used BART.
+
+BART is trained by corrupting text with an arbitrary noising function and then learning a model to reconstruct the original text. I am using a form of BART which has been pretrained on a large set of data from CNN 
+
+
+
+
+**Additional Features:**
+
+The program then calculates the average read time of the article.
 
 ## Visualizations
 
