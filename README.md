@@ -3,15 +3,13 @@
 ## Table of Contents
 - [The Idea](#The-Idea)
 - [Process & Tools](#Process-&-Tools)
-- [Visualizations](#Visualizations)
-- [Key Take Aways](#Key-Take-Aways)
 - [Next Steps](#Next-Steps)
 
 ## The Idea
 
-The idea was to create a newsletter about data science and related topics, which could be semi-automated in Python to reduce production time.
+The idea was to create a data science newsletter, which could be semi-automated in Python to reduce production time.
 
-For the content of the newsletter, I scrape articles from the internet, filter them for relevancy and then automatically generate summaries in Python. I am also able to generate useful information such as the read time and approximate difficulty level for each article.
+For the content of the newsletter, I scrape articles from the internet, filter them for relevancy and then automatically generate summaries. The program also calculates useful information such as the read time and approximate difficulty level for each article.
 
 On top of that, I get back local weather information and current stock prices to augment the newsletter.
 
@@ -19,7 +17,7 @@ On top of that, I get back local weather information and current stock prices to
 
 ### Python
 
-The majority of the process was carried out in Python. 
+The majority of the process was carried out in Python. A link to the Jupyter Notebook can be found (here)[link].
 
 **Getting articles:**
 
@@ -53,25 +51,22 @@ By using this model, the program can generate relativley accurate summaries of t
 
 **Additional Features:**
 
-I used 
+The program also calculates the average read time of the article.
 
-The program calculates the average read time of the article.
+I used the OpenWeather API to get back local weather information such as high and low temperature, weather status and sunrise/sunset times. 
 
-## Visualizations
+The YahooFinance API allowed me to return to closing postion of the stock markets for the previous day.
 
+### Canva
 
-## Key Take Aways
+Once all the information is gathered, it is exported. From there it is a simple process to construct the newsletter. I chose to do this with Canva, but any design software could be used.
 
-With the data we currently have access to, we were  not able to accurately predict whether customers were 'good' or 'bad' for the bank.
-
-Using the accuracy_score metric from sklearn, the model achieved a score of 88%. This appears to be a good result. However, when we look at the confusion matrix, we can see that although the model is good at predicting 'good' customers, it also often misassigns 'bad' customers as 'good' customers (a false positive).
-
-This is reflected in the AUC score of 73%, which although not a very bad score, shows that there is room for improvement.
-
-The issue here appears to be that since there are many more 'good' customers at the bank than 'bad' customers, the model is over prioritising that group.
+A link to an example of a finished newsletter can be found (here)[link].
 
 ## Next Steps
 
-The obvious next step would be to re-run the model having done some sampling techniques. If we were to over or under sample from the original data to even out the number of 'good' and 'bad' customers that the model recieves, we may be able to get fewer false negatives.
+Though I believe the project to be successful, there are ways in which it could be improve. Full automation of the newsletter would be idea, although it seems difficult to automate production and achieve a nice design. The summaries, though good are not perfect, and might be improved by further fine tuning of the model, which wasn't withing the scope of this project.
 
-Having access to more data on the customers of the bank would also lead to a more accurate model.
+
+
+
