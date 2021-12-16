@@ -1,7 +1,7 @@
 # Data Driven - a Data Science Email Newsletter made using Python
 
+<img width="522" alt="Screenshot 2021-12-16 at 09 53 09" src="https://user-images.githubusercontent.com/89530964/146339237-0d45b14e-551f-4b4e-b082-49533209b7d0.png">
 
-<img width="400" alt="Screenshot 2021-12-14 at 12 42 17" src="https://user-images.githubusercontent.com/89530964/145991926-5ba100a9-3c81-46db-a430-d3f0b95c8ffc.png">
 
 ## Table of Contents
 - [The Idea](#The-Idea)
