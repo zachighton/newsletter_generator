@@ -4,7 +4,7 @@
 
 
 ## Table of Contents
-- [Useful Links(#Useful-Links)
+- [Useful Links](#Useful-Links)
 - [The Aim](#The-Aim)
 - [Process & Tools](#Process-&-Tools)
 - [Conclusion and Next Steps](#Conclusion-and-Next-Steps)
@@ -78,8 +78,10 @@ A link to an example of a finished newsletter can be found (here)[link].
 
 ## Conclusion and Next Steps
 
-The process of making the newsletter after the notebook has run should be between 5 and 10 minutes. The task of getting back all the information included in the newsletter and reading the articles and writing summaries, could easily take a person several hours. I therefore think that this notebook could represent a huge time save to someone that needed to produce a daily newsletter. The generation of summaries is the greatest time saver, but having weather and stocks information as well as difficulty level and read time all in the desired format adds up, in my opinion, to an enourmous saving in time and energy.
+The process of making the newsletter after the notebook has run should be between 5 and 10 minutes. This represents a large amount of time saved compared to doing the same steps manually. The task of getting back all the information included in the newsletter, reading the articles and writing summaries, could easily take a person several hours. 
 
-Though I believe the project to be successful, there are ways in which it could be improved. Full automation of the newsletter would be ideal, although it seems difficult to fully automate production and at the same time achieve a nice design. The summaries though good are not perfect and might be improved by further fine tuning of the model, which wasn't withing the scope of this project. Of course, this program could be quickly adapted to a range of topics outside of data science and it would be nice to implement it in other areas.
+The generation of summaries is the greatest time saver, but having weather and stocks information as well as difficulty level and read time all in the desired format adds up to an enourmous amount of time and energy saved.
+
+Though I believe the project to be successful, there are ways in which it could be improved. Full automation of the newsletter would be ideal, although it seems difficult to fully automate production and at the same time achieve a nice design. The summaries though good are not perfect and might be improved by further fine tuning of the model, training it on only data science articles, which wasn't withing the scope of this project. Finally, this program could be quickly adapted to a range of topics outside of data science and it would be nice to implement it in other areas.
 
 
