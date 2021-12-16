@@ -25,7 +25,7 @@ In order to create the newsletter, the program scrapes data science and technolo
 
 ### Python
 
-The majority of the process is carried out in Python. A link to the Jupyter Notebook can be found (here)[link].
+The majority of the process is carried out in Python. The Jupyter Notebook can be found [here](https://github.com/zachighton/newsletter_generator/blob/main/newsletter_final.ipynb).
 
 **Getting articles:**
 
@@ -74,7 +74,7 @@ Once all the information is gathered, the program exports all the article summar
 
 It is now a simple process to construct the newsletter. I chose to do this with Canva, but any design software could be used. I have made a template which could be reused daily and quickly updated with that days articles.
 
-A link to an example of a finished newsletter can be found (here)[link].
+An example of a finished newsletter can be found [here](link).
 
 ## Conclusion and Next Steps
 
