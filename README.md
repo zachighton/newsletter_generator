@@ -11,9 +11,9 @@
 
 ## Useful Links
 
-Newsletter Example
-Juptyer Notebook
-Slides
+- [Newsletter Example](https://github.com/zachighton/newsletter_generator/blob/main/newsletter_final.ipynb)
+- Juptyer Notebook
+- Slides
 
 ## The Aim
 
