@@ -1,7 +1,7 @@
-# Data Driven - a Data Science Email Newsletter made using Python
+# Data Driven - a Data Science Email Newsletter made (mostly) using Python
 
+<img width="522" alt="Screenshot 2021-12-16 at 09 53 09" src="https://user-images.githubusercontent.com/89530964/146339237-0d45b14e-551f-4b4e-b082-49533209b7d0.png">
 
-<img width="400" alt="Screenshot 2021-12-14 at 12 42 17" src="https://user-images.githubusercontent.com/89530964/145991926-5ba100a9-3c81-46db-a430-d3f0b95c8ffc.png">
 
 ## Table of Contents
 - [The Idea](#The-Idea)
@@ -10,9 +10,11 @@
 
 ## The Idea
 
-The idea was to create a data science email newsletter which was semi-automated in Python to reduce production time.
+The idea was to create a data science email newsletter which was semi-automated in Python to reduce production time. The newsletter would give you some article suggestions along with a short summary of their contents so you could see whether you wanted to read the full article. It would also display local weather information and stock market data.
 
-For the content of the newsletter, I scrape articles from the internet, filter them for relevancy and then automatically generate summaries. The notebook also calculates useful information such as the read time and approximate difficulty level for each article. On top of that, it gets back local weather information and current stock market values which can be added to the newsletter.
+In order to create the newsletter, the program
+
+For the content of the newsletter, I scrape articles from the internet, filter them for relevancy and then automatically generate summaries. The notebook also calculates useful information such as the read time and approximate difficulty level for each article.
 
 ## Process & Tools
 
