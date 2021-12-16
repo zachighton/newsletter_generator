@@ -1,4 +1,4 @@
-# Data Driven - a Data Science Email Newsletter made (mostly) using Python
+# Data Driven - a Data Science Email Newsletter made using Python
 
 <img width="562" alt="Screenshot 2021-12-16 at 15 47 36" src="https://user-images.githubusercontent.com/89530964/146393419-cc6bdb75-3fc8-4fcd-b4b2-2857d89338b2.png">
 
