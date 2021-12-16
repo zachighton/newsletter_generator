@@ -78,9 +78,7 @@ An example of a finished newsletter can be found [here](https://github.com/zachi
 
 ## Conclusions and Next Steps
 
-The process of making the newsletter after the notebook has run should be around 10 minutes. This represents a large amount of time saved compared to doing the same steps manually. The task of getting back all the information included in the newsletter, reading the articles and writing summaries, could easily take a person several hours. 
-
-The generation of summaries is the greatest time saver, but having weather and stock information as well as difficulty level and read time all in the desired format adds up to a significant amount of time and energy saved.
+The process of making the newsletter after the notebook has run should be around 10 minutes. This represents a large amount of time saved compared to doing the same steps manually. The task of getting back all the information included in the newsletter, reading the articles and writing summaries, could easily take a person several hours. The generation of summaries is the greatest time saver, but having weather and stock information as well as difficulty level and read time all in the desired format adds up to a significant amount of time and energy saved.
 
 Although I believe the project to be successful, there are several ways in which it could be improved. Full automation of the newsletter would be ideal, although it seems difficult to fully automate production and at the same time achieve a nice design. The summaries, though good, are not perfect and might be improved by further fine tuning of the model, training it on only data science articles, which wasn't within the scope of this project. Finally, this notebook could be quickly adapted to a range of topics outside of data science and it would be interesting to see it implemented in other areas.
 
