@@ -6,7 +6,7 @@
 ## Table of Contents
 - [Useful Links](#Useful-Links)
 - [The Aim](#The-Aim)
-- [Process & Tools](#Process-&-Tools)
+- [Process and Tools](#Process-and-Tools)
 - [Conclusion and Next Steps](#Conclusion-and-Next-Steps)
 
 ## Useful Links
@@ -21,7 +21,7 @@ The idea was to create a data science email newsletter which was semi-automated 
 
 In order to create the newsletter, the program scrapes data science and technology websites and brings back recent articles. It then filters them for relevancy and automatically generates summaries. The notebook also calculates useful information such as the read time and approximate difficulty level for each article.
 
-## Process & Tools
+## Process and Tools
 
 ### Python
 
