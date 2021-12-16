@@ -7,7 +7,7 @@
 - [Useful Links](#Useful-Links)
 - [The Aim](#The-Aim)
 - [Process and Tools](#Process-and-Tools)
-- [Conclusion and Next Steps](#Conclusion-and-Next-Steps)
+- [Conclusions and Next Steps](#Conclusions-and-Next-Steps)
 
 ## Useful Links
 
@@ -76,7 +76,7 @@ It is now a simple process to construct the newsletter. I chose to do this with 
 
 An example of a finished newsletter can be found [here](https://github.com/zachighton/newsletter_generator/blob/main/Data%20Driven%20-%20Newsletter%20Example.pdf).
 
-## Conclusion and Next Steps
+## Conclusions and Next Steps
 
 The process of making the newsletter after the notebook has run should be between 5 and 10 minutes. This represents a large amount of time saved compared to doing the same steps manually. The task of getting back all the information included in the newsletter, reading the articles and writing summaries, could easily take a person several hours. 
 
