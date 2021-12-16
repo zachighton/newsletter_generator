@@ -11,9 +11,9 @@
 
 ## Useful Links
 
-- [Newsletter Example](https://github.com/zachighton/newsletter_generator/blob/main/newsletter_final.ipynb)
-- Juptyer Notebook
-- Slides
+- [Newsletter Example](https://github.com/zachighton/newsletter_generator/blob/main/Data%20Driven%20-%20Newsletter%20Example.pdf)
+- [Juptyer Notebook](https://github.com/zachighton/newsletter_generator/blob/main/newsletter_final.ipynb)
+- [Slides](https://slides.com/zachighton/data-driven-final)
 
 ## The Aim
 
@@ -74,7 +74,7 @@ Once all the information is gathered, the program exports all the article summar
 
 It is now a simple process to construct the newsletter. I chose to do this with Canva, but any design software could be used. I have made a template which could be reused daily and quickly updated with that days articles.
 
-An example of a finished newsletter can be found [here](link).
+An example of a finished newsletter can be found [here](https://github.com/zachighton/newsletter_generator/blob/main/Data%20Driven%20-%20Newsletter%20Example.pdf).
 
 ## Conclusion and Next Steps
 
